@@ -13,17 +13,17 @@ body{
     flex-wrap: wrap;
     height: 270px;
     font-size: calc(5rem);
-    
+    font-family: 'Fuzzy Bubbles', cursive;
     color: red;
     
 }
 .context{
     margin-bottom: 24px;
-    padding-top: 18px;
+    padding-top: 12px;
     position: sticky;
     top: -12px;
     background-color: black;
-    padding-bottom: 18px;
+    padding-bottom: 12px;
     opacity: 0.7;
 }
 
@@ -88,11 +88,15 @@ ul{
 }
 
 /* ................................................................................ */
-.film_container{
+.sec2{
+    /* height: 100vh; */
+    /* top: 52px; */
     background-image: url(image/r1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+}
+.film_container{
     height: 100vh;
     width: 100%;
     margin-top: 0px;
@@ -106,10 +110,10 @@ ul{
     text-decoration: underline;
     margin-top: 0px;
     margin-left: 12px;
-    padding-top: 11px;
+    padding-top: 65px;
     padding-left:5px ;
     font-size: 3em;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 .films{
@@ -189,110 +193,37 @@ ul{
     text-decoration: underline;
     cursor: pointer;
     color: black;
-    
-    
-    /* background-color: grey; */
+
 }
 
 
 /* ......................mallll,,,,,,,,,,................................. */
-.film_container2{
+.sec3{
     background-image: url(image/mal.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 100vh;
-    width: 100%;
-    margin-top: 6px;
-    /* border: 2px solid black; */
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 4;
-    /* justify-content: space-evenly; */
 }
-.tit2{
-    text-decoration: underline;
-    margin-top: 0px;
-    margin-left: 12px;
-    padding-top: 11px;
-    padding-left:5px ;
-    font-size: 3em;
-    color: aliceblue;
-}
+
 /* .................................hindi......................................... */
-.film_container4{
+.sec4{
     background-image: url(image/hin.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 100vh;
-    width: 100%;
-    margin-top: 6px;
-    /* border: 2px solid black; */
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 4;
-    /* justify-content: space-evenly; */
-}
-.tit4{
-    text-decoration: underline;
-    margin-top: 0px;
-    margin-left: 12px;
-    padding-top: 11px;
-    padding-left:5px ;
-    font-size: 3em;
-    color: aliceblue;
 }
 
 /* ...........................world films............................................. */
-.film_container5{
+.sec5{
     background-image: url(image/hol.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 100vh;
-    width: 100%;
-    margin-top: 6px;
-    /* border: 2px solid black; */
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 4;
-    /* justify-content: space-evenly; */
-}
-.tit5{
-    text-decoration: underline;
-    margin-top: 0px;
-    margin-left: 12px;
-    padding-top: 11px;
-    padding-left:5px ;
-    font-size: 3em;
-    color: aliceblue;
 }
 /* .................................art films......................................... */
-.film_container6{
+.sec6{
     background-image: url(image/art.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 100vh;
-    width: 100%;
-    margin-top: 6px;
-    /* border: 2px solid black; */
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-shrink: 4;
-    /* justify-content: space-evenly; */
-}
-.tit6{
-    text-decoration: underline;
-    margin-top: 0px;
-    margin-left: 12px;
-    padding-top: 11px;
-    padding-left:5px ;
-    font-size: 3em;
-    color: aliceblue;
 }
